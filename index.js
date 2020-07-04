@@ -111,7 +111,7 @@ client.on('message', (message) => {
       let contents = message.content.slice('!빨통'.length);
       let embed = new Discord.RichEmbed()
         .setAuthor('빨통샵 공지사항 BOT')
-        .setColor('#000000')
+        .setColor('#ffc0cb')
         .setFooter(`빨통샵#7777 BOT ❤️`)
         .setTimestamp()
   
